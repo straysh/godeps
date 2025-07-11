@@ -213,7 +213,7 @@ func main() {
 	}
 
 	target := *search
-	fmt.Printf("# %s包名 的依赖链路\n", target)
+	fmt.Printf("# %s 包的依赖链路\n", target)
 
 	// 查找匹配的包名（用于依赖链路）
 	matches := findMatchingPackages(target, deps)
@@ -229,7 +229,7 @@ func main() {
 	}
 
 	fmt.Println()
-	fmt.Printf("# 依赖 %s包名 的链路\n", target)
+	fmt.Printf("# 依赖 %s 包的链路\n", target)
 
 	// 查找匹配的包名（用于反向依赖链路）
 	reverseMatches := findMatchingPackagesReverse(target, reverse)

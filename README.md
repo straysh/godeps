@@ -86,13 +86,13 @@ project package_name: github.com/example/app
 
 **Output:**
 ```
-# github.com/gin-gonic/gin包名 的依赖链路
+# github.com/gin-gonic/gin 包的依赖链路
 github.com/gin-gonic/gin@v1.9.1
 ├── github.com/gin-contrib/sse@v0.1.0
 ├── github.com/go-playground/validator/v10@v10.14.0
 └── github.com/json-iterator/go@v1.1.12
 
-# 依赖 github.com/gin-gonic/gin包名 的链路
+# 依赖 github.com/gin-gonic/gin 包的链路
 github.com/example/app
 └── github.com/gin-gonic/gin@v1.9.1
 ```
