@@ -3,6 +3,8 @@
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.18-blue.svg)](https://golang.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
+[中文版本](README_CN.md) | English
+
 A command-line tool for analyzing Go module dependencies. It provides a clear, tree-structured view of your project's dependency relationships, including both direct and indirect dependencies.
 
 ## ✨ Features
