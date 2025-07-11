@@ -20,7 +20,7 @@ A command-line tool for analyzing Go module dependencies. It provides a clear, t
 ### From Source
 
 ```bash
-git clone https://github.com/your-username/godeps.git
+git clone https://github.com/straysh/godeps.git
 cd godeps
 go build -o godeps main.go
 ```
@@ -28,7 +28,7 @@ go build -o godeps main.go
 ### Direct Installation
 
 ```bash
-go install github.com/your-username/godeps@latest
+go install github.com/straysh/godeps@latest
 ```
 
 ## 🚀 Usage

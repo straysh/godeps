@@ -20,7 +20,7 @@
 ### 从源码编译
 
 ```bash
-git clone https://github.com/your-username/godeps.git
+git clone https://github.com/straysh/godeps.git
 cd godeps
 go build -o godeps main.go
 ```
@@ -28,7 +28,7 @@ go build -o godeps main.go
 ### 直接安装
 
 ```bash
-go install github.com/your-username/godeps@latest
+go install github.com/straysh/godeps@latest
 ```
 
 ## 🚀 使用方法
