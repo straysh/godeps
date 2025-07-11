@@ -1,4 +1,4 @@
-module godeps.udcp.local
+module github.com/straysh/godeps
 
 go 1.18
 
